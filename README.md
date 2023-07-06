@@ -1,2 +1,2 @@
 # Projeto-Fintech - FIAP
-Projeto Fintech -Fiap
+Conteúdo abordado em aulaspara desenvolvimento de solução para controle financeiro - 1° ano do curso de ADS - FIAP.
