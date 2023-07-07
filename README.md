@@ -30,7 +30,7 @@ Projeto hospedado no Github Pages:
   Tela de login
 </h3>
 
-![login](../../assets/images/Demonstração/Login-Money-Wise.gif)
+![login](assets/images/Demonstração/Login - Money Wise.gif)
 
 ---
 
@@ -38,7 +38,7 @@ Projeto hospedado no Github Pages:
   Tela Dashboard
 </h3>
 
-![dashboard](../../assets/images/Demonstração/Desktop-Money-Wise.gif)
+![dashboard](../../assets/images/Demonstração/Desktop -Money Wise.gif)
 
 ---
 
@@ -46,7 +46,7 @@ Projeto hospedado no Github Pages:
   Responsividade
 </h3>
 
-![responsividade](../../assets/images/Demonstração/Responsividade-Money-Wise.gif)
+![responsividade](assets/images/Demonstração/Responsividade- Money Wise.gif)
 
 
 
