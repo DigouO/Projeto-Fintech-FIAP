@@ -1,0 +1,324 @@
+/* Minhas Cores: */
+
+:root {
+  --preto: rgb(0, 0, 0);
+  --branco:rgb(255, 255, 255);
+  --verde: rgb(0, 133, 22);
+  --verde-escuro: rgb(2, 66, 2);
+  --verde-claro: rgb(0, 170, 43);   
+}
+
+
+body {
+  color: var(--preto);
+
+}
+
+a {
+  color: var(--preto);
+  text-decoration: none;
+}
+
+header {
+  background: var(--branco);
+}
+
+.header-desktop {
+  background: var(--branco);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1
+}
+
+
+.logo-texto {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  margin: 1em 0 1em 0;
+  color: var(--preto);
+}
+
+
+.bi-person-circle, .sair-mobile {
+  font-size: 1.25rem;
+}
+
+.ola-usuario {
+  padding-left: 1em ;
+}
+
+
+.navegacao-direita .bi-box-arrow-right {
+  position: relative;
+  top: 0.5em;
+}
+
+.navegacao-direita .bi-person-circle {
+  position: relative;
+  top: 0.2em;
+}
+
+main {
+  background: #000000;
+}
+
+
+.aside {
+  background: var(--preto);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+
+}
+
+
+.menu-aside {
+  background: var(--verde-claro);
+  padding-top: 7.5em; 
+  height: 100%;  
+}
+
+.menu-aside ul {
+  list-style: none;
+}
+
+.botao-adicionar-aside {
+  background-color: var(--preto);
+  color: rgb(255, 255, 255);
+  font-size: 1em;
+  margin-bottom: 3.5em;
+  width: 7em;
+  border-color: var(--branco);
+  border-radius: 1em;
+}
+
+.botao-adicionar-aside:hover {
+  background-color: var(--verde);
+  border-color: var(--branco);
+  filter: brightness(0.8);
+  font-weight: bold;  
+  color: white;
+}
+
+.botao-adicionar-aside:active {
+  background-color: var(--verde);
+  border-color: var(--branco);
+  filter: brightness(0.8);
+  font-weight: bold;  
+  color: rgb(76, 0, 255); 
+}
+
+.botao-adicionar-aside i {
+  position: relative;
+  right: 1.1em;
+}
+
+.botao-adicionar-aside .novo {
+  position: relative;
+  right: 0.5em;
+}
+
+.menu-aside li {
+  padding-bottom: 1.5em;
+  font-size: 1em;
+}
+
+.menu-aside i {
+  padding-right: 0.5em;
+}
+
+
+.titulo-sessao-desktop {
+  width: 87.5%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: var(--branco);
+}
+
+.saldo-do-periodo, .ultimas-trasacoes, .investimentos {
+  
+  width: 87.5%;
+  margin: auto;
+  margin-bottom: 2em !important;
+  padding: 1em;
+  position: relative;
+  bottom: 2em;
+}
+
+.botao-periodo {
+  border: var(--verde);
+  background: rgb(0, 0, 0);
+  color: var(--branco);
+}
+
+h3 {
+  font-size: 1em;
+  color: var(--verde-escuro);
+  font-weight: bold;
+
+}
+
+.tela-principal .bi-arrow-up-circle {
+  color: green;
+}
+
+.tela-principal .bi-arrow-down-circle {
+  color: red;
+}
+
+.ultimas-trasacoes i, .investimentos i {
+  font-size: 1.7em;
+  position: relative;
+  top: 0.5em;
+}
+
+
+.categoria-transacao, .data-transacao, .etiqueta-investimento {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+
+.valor-transacao, .valor-rentabilidade {
+  font-size: 0.8em
+}
+
+footer {
+  background: var(--verde-claro);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-mobile i {
+  font-size: 1.7rem;
+  position: relative;
+  left: 15% !important;
+}
+
+.descricao-meio {
+  position: relative;
+  right: 0.5em;
+}
+
+.botao-adicionar-footer {
+  border-radius: 50%;
+  height: 90%;
+  position: relative;
+  bottom: 2rem;
+  right: 1.2rem;
+  font-size: 2.25rem;
+  padding-left: 1.5rem ;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-style: none;
+  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.795);
+  background-color: var(--preto);
+  color: rgb(255, 255, 255);  
+}
+
+/* Estilos de gastos.html */
+
+.saldo-do-periodo-gastos, .ultimos-gastos {
+  
+  width: 87.5%;
+  margin: auto;
+  margin-bottom: 1em !important;
+  padding: 1em;
+  position: relative;
+  bottom: 2em;
+}
+
+.data-transacao {
+  color: #000000;
+  font-size: 1em;
+}
+
+.fonte-transacoes {
+  font-size: 0.9em;
+}
+/* .ultimos-gastos i {
+  font-size: 1em;
+  position: static;
+}
+
+.ultimos-gastos .descricao-transacao {
+  font-size: 0.9em;
+} */
+
+/* Menú Lateral */
+
+@media only screen and (min-width:1150px) {
+
+  .aside {
+    width: 18%;
+  }
+
+  .menu-aside li {
+    font-size: 1.2em;
+  }
+
+  .botao-adicionar-aside {
+    font-size: 1.1em;
+    width: 8em;
+
+  }
+
+  /* Saídas */
+
+  .fonte-transacoes {
+    font-size: 1em;
+  }
+
+}
+
+
+@media only screen and (min-width:768px) {
+
+  .tela-principal {
+    font-size: 120%;
+  }
+
+  .botao-periodo {
+    background: var(--preto);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    width: 17%;
+    border-radius: 1em;
+  }
+
+  .botao-periodo:hover {
+    color: rgb(0, 133, 22);
+  }
+
+  .saldo-do-periodo, .ultimas-trasacoes, .investimentos, .saldo-do-periodo-gastos, .ultimos-gastos {
+    bottom: -2em;
+    margin-top: 1em;
+
+  }
+
+  .tela-principal {
+    margin-top: 7em;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .header-desktop {
+    display: none;
+  }
+
+  
+  .titulo-sessao-desktop {
+    display: none;
+  }
+
+  .aside {
+    display: none;
+  }
+} 
