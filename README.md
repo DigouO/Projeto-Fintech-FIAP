@@ -46,7 +46,7 @@ Projeto hospedado no Github Pages:
   Responsividade
 </h3>
 
-![responsividade](assets/images/Demonstração/Responsividade-Money-Wise.gif)
+![responsividade](../assets/images/Demonstração/Responsividade-Money-Wise.gif)
 
 
 
