@@ -1,6 +1,6 @@
-# Projeto-Fintech - FIAP
+# Projeto-Fintech Money Wise - FIAP
 
-<h1 align="center"><a href="../../index.html">Money Wise Projeto Fintech</a></h1>
+<h1 align="center"><a href="#">Money Wise Projeto Fintech</a></h1>
 
 <p align="center">
 Conteúdo abordado em aulas para desenvolvimento de solução para controle financeiro - 1° ano do curso de ADS - FIAP.
@@ -30,7 +30,7 @@ Projeto hospedado no Github Pages:
   Tela de login
 </h3>
 
-![login](assets/images/show/Demonstração/Login-Money-Wise.gif)
+![login](assets/images/Demonstração/Login-Money-Wise.gif)
 
 ---
 
@@ -46,7 +46,7 @@ Projeto hospedado no Github Pages:
   Responsividade
 </h3>
 
-![responsividade](assets/imagens/Demonstração/Responsividade-Money-Wise.gif)
+![responsividade](assets/images/Demonstração/Responsividade-Money-Wise.gif)
 
 
 
