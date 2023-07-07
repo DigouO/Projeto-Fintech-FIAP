@@ -1,4 +1,4 @@
-<h1 align="center"><a href="../../index.html">Money Wise Projeto Fintech</a></h1>
+<h1 align="center"><a href="index.html">Money Wise Projeto Fintech</a></h1>
 
 <p align="center">
 Projeto de desenvolvimento de um app de controle financeiro para o curso de Análise e Desenvolvimento de Sistemas da FIAP.
@@ -44,7 +44,7 @@ Projeto hospedado no Github Pages:
   Responsividade
 </h3>
 
-![responsividade](assets/imagens/Demonstração/Responsividade-Money-Wise.gif)
+![responsividade](assets/images/Demonstração/Responsividade-Money-Wise.gif)
 
 
 
