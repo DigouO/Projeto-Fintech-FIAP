@@ -28,7 +28,7 @@ Projeto hospedado no Github Pages:
   Tela de login
 </h3>
 
-![login](assets/images/show/Demonstração/Login-Money-Wise.gif)
+![login](assets/images/Demonstração/Login-Money-Wise.gif)
 
 ---
 
